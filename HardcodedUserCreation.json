@@ -1,0 +1,20 @@
+{
+      "AWSTemplateFormatVersion": "2010-09-09",
+      "Description": "AWS CloudFormation Sample Template IAM_USER_CREATION: Sample template to create a IAM user",
+      "Resources": { 
+           "IAMusercreation": { 
+                "Type": "AWS::IAM::User",
+                "Properties": {
+                              "UserName": "vamshi8807",
+                              "LoginProfile": {
+	                                          "Password" : "vamshi8807",
+					                          "PasswordResetRequired" : "true"
+					                          }
+			                   }
+    
+                               }
+				  
+                   }
+ }
+
+ 
